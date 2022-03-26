@@ -1,3 +1,5 @@
+//Permitir que se abran los archivos php y html incluso si no se añade extensión en url:
+
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
